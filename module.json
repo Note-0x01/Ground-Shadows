@@ -1,0 +1,20 @@
+{
+    "id": "Ground-Shadows",
+    "title": "Ground Shadows",
+    "description": "A foundry module for adding configurable ground shadows to orthographic tokens.",
+    "authors": [
+        {
+            "name": "Lute"
+        }
+    ],
+    "version": "1.0",
+    "esmodules": [
+        "scripts/ground-shadows.js"
+    ],
+    "compatibility": {
+        "minimum": "10",
+        "verified": "11",
+        "maximum": "12"
+    },
+    "compatibleCoreVersion": "11"
+}

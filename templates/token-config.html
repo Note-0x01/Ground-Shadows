@@ -1,0 +1,54 @@
+<div class="form-group">
+	<label>Enabled</label>
+	<input type="checkbox" name="flags.groundShadow.enabled" data-dtype="Boolean" {{enabled}} />
+</div>
+
+<div class="form-group">
+	<label>Width</label>
+	<div class="form-fields">
+		<range-picker name="flags.groundShadow.width" value={{width}} min="-100" max="100" step="1">
+			<input type="range" min="-100" max="100" step="1">
+			<input type="number" min="-100" max="100" step="1">
+		</range-picker>
+	</div>
+</div>
+
+<div class="form-group">
+	<label>Height</label>
+	<div class="form-fields">
+		<range-picker name="flags.groundShadow.height" value={{height}} min="-100" max="100" step="1">
+			<input type="range" min="-100" max="100" step="1">
+			<input type="number" min="-100" max="100" step="1">
+		</range-picker>
+	</div>
+</div>
+
+<div class="form-group">
+	<label>X Offset</label>
+	<div class="form-fields">
+		<range-picker name="flags.groundShadow.x" value={{xOffset}} min="-100" max="100" step="1">
+			<input type="range" min="-100" max="100" step="1">
+			<input type="number" min="-100" max="100" step="1">
+		</range-picker>
+	</div>
+</div>
+
+<div class="form-group">
+	<label>Y Offset</label>
+	<div class="form-fields">
+		<range-picker name="flags.groundShadow.y" value={{yOffset}} min="-100" max="100" step="1">
+			<input type="range" min="-100" max="100" step="1">
+			<input type="number" min="-100" max="100" step="1">
+		</range-picker>
+	</div>
+</div>
+
+<div class="form-group">
+	<label>Opacity</label>
+	<div class="form-fields">
+		<range-picker name="flags.groundShadow.opacity" value={{opacity}} min="0" max="100" step="1">
+			<input type="range" min="0" max="100" step="1">
+			<input type="number" min="0" max="100" step="1">
+		</range-picker>
+	</div>
+</div>
